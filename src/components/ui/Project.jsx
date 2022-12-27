@@ -17,7 +17,7 @@ export default function Project({ image, title, language, para, a, b, c, link}) 
           <p className="functionality"> ~ {b} </p>
           <p className="functionality"> ~ {c} </p>
     
-          <div className="project__description--links">
+          <div className="project__des-cription--links">
             <a href="https://github.com/tnguyen01234" target={"_blank"} className="project__description--link">
             <GitHubIcon className="fab fa-github"/>
             </a>

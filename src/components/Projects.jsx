@@ -37,7 +37,7 @@ export default function Projects() {
                 "Using Youtube API to fetch specific Videos, Channels and Recommendation."
               }
               b={
-                "Implementing the Search system to display appropriate videos and channels for users."
+                "Implementing the Search system to display appropriate videos and channels."
               }
               c={
                 "Video could be viewed upon click as it links directly with Youtube's directory. "
@@ -55,7 +55,7 @@ export default function Projects() {
               }
               a={"User Sign up and Sign in option."}
               b={
-                "Save specific user information which is contained in the user ID. Denies access to specific pages without proper account access."
+                "Save specific user information and denies access without an account."
               }
               c={"Pull data from an API and fetch the most popular Movies."}
               link={"https://netflix-clone-psi-dun.vercel.app/"}
