@@ -4,6 +4,7 @@ import Twitter from "../assets/Twitter.png";
 import Youtube from "../assets/Youtube.png";
 import Netflix from "../assets/Netflix.png";
 import Ecommerce from "../assets/Ecommerce.png";
+import dalle from "../assets/dalle.png";
 
 export default function Projects() {
   return (
@@ -75,6 +76,22 @@ export default function Projects() {
               }
               c={"Used the saved data to create a 'Total Cost' page which calculated the cost using Javascript."}
               link={"https://react-commerce-library.vercel.app/"}           
+           />
+            <Project
+              image={dalle}
+              title={"Dall-E AI Image Generator"}
+              language={
+                "React, Node.js, Express, MongoDB, Render, Cloudinary, Tailwind"
+              }
+              para={
+                "Created a Dall-E AI Image Generator. Using the MERN stack to develop a fullstack web application with a dedicated backend to connect all traffic to the frontend."
+              }
+              a={"Using Node and Express to create a backend server. Connected to OpenAI API to generate images."}
+              b={
+                "Passing data from the frontend to the backend using Axios."
+              }
+              c={"Using MongoDB to store the data and Cloudinary to store the images."}
+              link={"https://dall-e-frontend-three.vercel.app/"}        
            />
           </ul>
         </div>
